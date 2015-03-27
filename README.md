@@ -210,8 +210,8 @@ Addresses can be encoded using `mailcomposer.convertAddress(options)`
 
 ```javascript
 var address = mailcomposer.convertAddress({
-    name: 'username@example.com',
-    address: 'Ноде Майлер'
+    address: 'username@example.com',
+    name: 'Ноде Майлер'
 });
 // "Ноде Майлер" <username@example.com>
 ```
